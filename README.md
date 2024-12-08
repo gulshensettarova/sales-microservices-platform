@@ -61,7 +61,7 @@ This project is aimed at building a small-scale microservices platform for manag
 
 - **develop**: Active development branch.
 - **preprod**: Staging branch for testing.
-- **prod**: Production branch.
+- **main**: Production branch.
 
 ---
 
