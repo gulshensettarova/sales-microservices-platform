@@ -13,5 +13,6 @@ import java.util.List;
 public interface CustomerMapper {
     public Customer toEntity(CustomerRequest customer);
     public List<Customer> toEntity(List<CustomerRequest> customers);
-    public CustomerResponse toDto(Customer customer);
+    List<CustomerResponse> toDto(List<Customer> customers);
+    CustomerResponse toDto(Customer customers);
 }
